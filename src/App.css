@@ -14,7 +14,6 @@ p{
 
 body{
   font-family: Tahoma, Geneva, Verdana, sans-serif;
-  padding: 1em;
 }
 
 #main-div{
@@ -66,7 +65,7 @@ header p{
 
 button{
   cursor: pointer;
-  padding: .3em 1em;
+  padding: .7em 1.7em;
   background-color: #fff;
   border-radius: .3em;
   border: 0;
@@ -87,7 +86,7 @@ ul{
 li{
   padding: 1em;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   box-shadow: -.1em -.3em 3em #777;
   border-radius: .3em;
   margin: 0 0 1em 0;
