@@ -142,8 +142,10 @@ export default function App() {
                 <ul>
                 {goodMovies[selectedGenre].map((movieInfo) => (
                   <li key={movieInfo.movie}>
-                    <div key={movieInfo.movie}>{movieInfo.movie}</div>
-                    <div key={movieInfo.rating}>{movieInfo.rating}</div>
+                    <span>
+                      <div key={movieInfo.movie}>{movieInfo.movie}</div>
+                      <div key={movieInfo.rating}>{movieInfo.rating}</div>
+                    </span>
                   </li>
                 ))}
                 </ul>
