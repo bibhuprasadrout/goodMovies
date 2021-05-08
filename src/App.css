@@ -9,7 +9,7 @@ ul{
 }
 
 p{
-  font-size: 1.7rem;
+  font-size: 1.3rem;
 }
 
 body{
@@ -52,11 +52,11 @@ header p{
 }
 
 #introText{
-  padding: 1em;
+  padding: 3em;
 }
 
 #genreButtons{
-  padding: 1em 0 1em 0;
+  padding: 0 0 1em 0;
 }
 #genreButton{
   display: flex;
